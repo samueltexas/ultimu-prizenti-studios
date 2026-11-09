@@ -1,0 +1,17 @@
+{
+  "name": "ultimu-prizenti-studios",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Site oficial de fotografia e cinema da Ultimu Prizenti Studios.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "npm run build && npm test"
+  }
+}

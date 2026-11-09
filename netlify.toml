@@ -1,0 +1,12 @@
+# A pasta dist contém apenas o site público, sem os originais do fotógrafo.
+[build]
+  command = "npm run build"
+  publish = "dist"
+[build.environment]
+  NODE_VERSION = "24"
+
+# Pré-visualizações de alterações não devem competir com o site oficial nas pesquisas.
+[context.deploy-preview.environment]
+  SITE_PREVIEW = "true"
+[context.branch-deploy.environment]
+  SITE_PREVIEW = "true"

@@ -1,0 +1,19 @@
+# Resultados gerados e ferramentas locais.
+dist/
+node_modules/
+.DS_Store
+*.log
+.netlify/
+.env
+.env.*
+!.env.example
+
+# Arquivo privado: não publicar conversas, caminhos locais ou masters.
+docs/private/
+archive-originals/
+arquivo-originais/
+*.zip
+
+# As cópias web MP4 são versionadas: um clone deve construir o site completo.
+# Nunca adicionar masters MOV nem vídeos superiores a 100 MiB.
+*.mov

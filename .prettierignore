@@ -1,0 +1,8 @@
+dist
+public/assets/photos
+public/assets/videos
+public/assets/brand
+node_modules
+MANUAL.pdf
+docs/*.pdf
+docs/private
