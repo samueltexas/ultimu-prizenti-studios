@@ -95,14 +95,6 @@ The free hosting plan has usage limits. Video traffic can consume the allowance;
 a custom domain is optional and paid separately. No paid services are required by
 the code, and no automatic payment flow is implemented.
 
-## Documentation
-
-- [User manual (Portuguese)](MANUAL.pdf)
-- [Project explanation (Portuguese)](docs/PROJECT.pdf)
-- [Editable manual](MANUAL.md)
-- [Deployment and forms](docs/PUBLICAR.md)
-- [Content and media](docs/CONTEUDOS.md)
-
 ## Ownership
 
 This is a source-available professional portfolio, not an open-source template.
