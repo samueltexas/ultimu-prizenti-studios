@@ -1,6 +1,6 @@
 # Manual do site - Ultimu Prizenti Studios
 
-Versão de 9 de Novembro de 2026. Este projecto funciona sem ChatGPT ou Codex.
+Versão de 9 de Novembro de 2026.
 O arquivo completo contém o site, as cópias web, os originais e a documentação.
 
 ## 1. Guardar e abrir no VS Code
