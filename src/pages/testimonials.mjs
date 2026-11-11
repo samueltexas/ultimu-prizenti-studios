@@ -1,7 +1,7 @@
 import { pageUrl } from '../data/site.mjs';
 import { pageHeading, escapeHtml, testimonialsSection } from '../components/shared.mjs';
 
-// Os envios ficam privados na Netlify; só os testemunhos aprovados entram no código público.
+// Os envios ficam privados no serviço de formulários; só os testemunhos aprovados entram no código público.
 export function testimonialsPage(language, t) {
   return /* HTML */ `${pageHeading(t.nav.about, t.reviewsTitle)} ${testimonialsSection(t)}
     <section class="section wrap review-section">

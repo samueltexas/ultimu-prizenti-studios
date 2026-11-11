@@ -129,7 +129,7 @@ if (filters) {
   });
 }
 
-// Enviamos para a Netlify e só confirmamos após uma resposta de sucesso.
+// Enviamos para o serviço de formulários e só confirmamos após uma resposta de sucesso.
 const form = document.querySelector('[data-contact-form]');
 if (form) {
   const chosen = new URLSearchParams(location.search).get('service');

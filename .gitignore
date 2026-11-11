@@ -17,3 +17,11 @@ arquivo-originais/
 # As cópias web MP4 são versionadas: um clone deve construir o site completo.
 # Nunca adicionar masters MOV nem vídeos superiores a 100 MiB.
 *.mov
+
+# Manuais pessoais: preservados localmente, fora do repositório público.
+MANUAL.md
+MANUAL.pdf
+docs/PROJECT.md
+docs/PROJECT.pdf
+docs/PUBLICAR.md
+docs/CONTEUDOS.md

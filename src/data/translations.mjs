@@ -2,6 +2,10 @@
 // Os slogans em inglês fazem parte da identidade aprovada da marca.
 export const translations = {
   en: {
+    packageCta: 'Let’s Create Together',
+    pricingNoteTitle: 'Pricing information',
+    pricingNote:
+      'Prices shown are net amounts in PLN, excluding VAT. VAT is added only where legally applicable. The final quotation will state the total payable, including any applicable VAT and agreed additional services, before a booking is confirmed.',
     reviewsTitle: 'What Our Clients Say',
     reviewHeading: 'Share your experience',
     reviewMessage: 'Your review',
@@ -14,7 +18,7 @@ export const translations = {
     authorship:
       'The photographs and videos presented on this website are original works by Ultimu Prizenti Studios, unless otherwise stated. Reproduction, distribution or use without permission from the respective rights holders is prohibited.',
     reviewPrivacy:
-      'Review submissions are stored through Netlify Forms for verification. Only approved reviews and the authorised name are published; email addresses remain private.',
+      'Review submissions are stored securely for verification. Only approved reviews and the authorised name are published; email addresses remain private.',
     droneHeading: 'A New Perspective.',
     droneStatus: 'Portfolio Coming Soon',
     droneBody:
@@ -32,7 +36,7 @@ export const translations = {
       home: 'Home',
       portfolio: 'Work',
       films: 'Films',
-      services: 'Services',
+      services: 'Packages',
       about: 'About',
       contact: 'Contact',
       privacy: 'Privacy',
@@ -43,7 +47,7 @@ export const translations = {
       home: 'Photography & Film in Warsaw',
       portfolio: 'Photography Portfolio',
       films: 'Films & Showreel',
-      services: 'Photography & Film Services',
+      services: 'Photography & Film Packages',
       about: 'About the Studio',
       contact: 'Start a Project',
       privacy: 'Privacy',
@@ -134,7 +138,7 @@ export const translations = {
     formError:
       'We couldn’t confirm delivery. Your details are still here. Please try again or contact us by email or WhatsApp.',
     formLocal:
-      'This is a local preview. Sending will be available once the website is published on Netlify. No message was sent.',
+      'This is a local preview. Sending will be available once the website is published online. No message was sent.',
     formNote: 'Your details will be used to respond to your enquiry.',
     contactPending:
       'Direct contact details will be available soon. You can prepare and copy your project brief below.',
@@ -155,13 +159,17 @@ export const translations = {
     ],
     privacyTitle: 'Your privacy matters.',
     privacyBody:
-      'This website uses no analytics or advertising cookies. When you submit the form, your name, email and project details are processed and stored through Netlify Forms so we can respond to your enquiry. Please do not include sensitive information. For access or deletion requests, contact ultimuprizenti@gmail.com. Email, WhatsApp and Instagram process information under their own policies. Hosting providers may process technical access logs.',
+      'This website uses no analytics or advertising cookies. When you submit the form, your name, email and project details are processed and stored securely so we can respond to your enquiry. Please do not include sensitive information. For access or deletion requests, contact ultimuprizenti@gmail.com. Email, WhatsApp and Instagram process information under their own policies. Hosting providers may process technical access logs.',
     rights: 'All photographs and films reserved.',
     notFound: 'This frame is missing.',
     notFoundText: 'The page you are looking for could not be found.',
     returnHome: 'Return home',
   },
   pt: {
+    packageCta: 'Vamos Criar Juntos',
+    pricingNoteTitle: 'Informação sobre os preços',
+    pricingNote:
+      'Os preços apresentados são valores líquidos em PLN, sem IVA. O IVA acresce apenas quando legalmente aplicável. Antes da confirmação da reserva, o orçamento final indicará o total a pagar, incluindo o IVA aplicável e quaisquer serviços adicionais acordados.',
     reviewsTitle: 'Testemunhos',
     reviewHeading: 'Partilha a tua experiência',
     reviewMessage: 'O teu testemunho',
@@ -175,7 +183,7 @@ export const translations = {
     authorship:
       'As fotografias e os vídeos apresentados neste website são trabalhos originais da Ultimu Prizenti Studios, salvo indicação em contrário. A reprodução, distribuição ou utilização sem autorização dos respectivos titulares de direitos é proibida.',
     reviewPrivacy:
-      'Os testemunhos enviados são guardados através do Netlify Forms para verificação. Apenas os testemunhos aprovados e o nome autorizado são publicados; os endereços de email permanecem privados.',
+      'Os testemunhos enviados são guardados de forma reservada para verificação. Apenas os testemunhos aprovados e o nome autorizado são publicados; os endereços de email permanecem privados.',
     droneHeading: 'Uma Nova Perspectiva.',
     droneStatus: 'Portefólio Disponível em Breve',
     droneBody:
@@ -295,7 +303,7 @@ export const translations = {
     formError:
       'Não conseguimos confirmar o envio. Os teus dados continuam aqui. Tenta novamente ou contacta-nos por email ou WhatsApp.',
     formLocal:
-      'Esta é uma prévia local. O envio ficará disponível quando o site for publicado na Netlify. Nenhuma mensagem foi enviada.',
+      'Esta é uma prévia local. O envio ficará disponível quando o site for publicado online. Nenhuma mensagem foi enviada.',
     formNote: 'Os teus dados serão utilizados para responder ao teu pedido.',
     contactPending:
       'Os contactos directos estarão disponíveis em breve. Podes preparar e copiar a descrição do teu projecto abaixo.',
@@ -312,13 +320,17 @@ export const translations = {
     ],
     privacyTitle: 'A tua privacidade importa.',
     privacyBody:
-      'Este site não utiliza ferramentas de análise nem cookies publicitários. Ao enviares o formulário, o teu nome, email e detalhes do projecto são tratados e guardados através do Netlify Forms para podermos responder ao teu pedido. Não incluas informações sensíveis. Para pedidos de acesso ou eliminação, contacta ultimuprizenti@gmail.com. Email, WhatsApp e Instagram tratam os dados segundo as suas próprias políticas. O fornecedor de alojamento poderá tratar registos técnicos de acesso.',
+      'Este site não utiliza ferramentas de análise nem cookies publicitários. Ao enviares o formulário, o teu nome, email e detalhes do projecto são tratados e guardados de forma reservada para podermos responder ao teu pedido. Não incluas informações sensíveis. Para pedidos de acesso ou eliminação, contacta ultimuprizenti@gmail.com. Email, WhatsApp e Instagram tratam os dados segundo as suas próprias políticas. O fornecedor de alojamento poderá tratar registos técnicos de acesso.',
     rights: 'Todos os direitos das fotografias e dos filmes reservados.',
     notFound: 'Este enquadramento ficou por encontrar.',
     notFoundText: 'Não foi possível encontrar a página que procuras.',
     returnHome: 'Voltar ao início',
   },
   pl: {
+    packageCta: 'Stwórzmy Coś Razem',
+    pricingNoteTitle: 'Informacje o cenach',
+    pricingNote:
+      'Podane ceny są kwotami netto w PLN, bez VAT. VAT jest doliczany wyłącznie wtedy, gdy jest prawnie należny. Przed potwierdzeniem rezerwacji ostateczna wycena określi całkowitą kwotę do zapłaty, w tym należny VAT i uzgodnione usługi dodatkowe.',
     reviewsTitle: 'Opinie Klientów',
     reviewHeading: 'Podziel się swoim doświadczeniem',
     reviewMessage: 'Twoja opinia',
@@ -331,7 +343,7 @@ export const translations = {
     authorship:
       'Fotografie i filmy prezentowane na tej stronie są oryginalnymi pracami Ultimu Prizenti Studios, chyba że zaznaczono inaczej. Powielanie, rozpowszechnianie lub wykorzystywanie bez zgody odpowiednich właścicieli praw jest zabronione.',
     reviewPrivacy:
-      'Przesłane opinie są przechowywane w Netlify Forms w celu weryfikacji. Publikujemy wyłącznie zatwierdzone opinie i zaakceptowane imię; adresy email pozostają prywatne.',
+      'Przesłane opinie są przechowywane w celu obsługi zgłoszeń w celu weryfikacji. Publikujemy wyłącznie zatwierdzone opinie i zaakceptowane imię; adresy email pozostają prywatne.',
     droneHeading: 'Nowa Perspektywa.',
     droneStatus: 'Portfolio Już Wkrótce',
     droneBody:
@@ -451,7 +463,7 @@ export const translations = {
     formError:
       'Nie udało się potwierdzić wysłania. Twoje dane pozostały w formularzu. Spróbuj ponownie lub skontaktuj się z nami emailem albo przez WhatsApp.',
     formLocal:
-      'To jest podgląd lokalny. Wysyłanie będzie dostępne po opublikowaniu strony w Netlify. Nie wysłano wiadomości.',
+      'To jest podgląd lokalny. Wysyłanie będzie dostępne po opublikowaniu strony. Nie wysłano wiadomości.',
     formNote: 'Twoje dane zostaną wykorzystane do udzielenia odpowiedzi na zapytanie.',
     contactPending:
       'Dane kontaktowe będą dostępne wkrótce. Poniżej możesz przygotować i skopiować opis projektu.',
@@ -468,7 +480,7 @@ export const translations = {
     ],
     privacyTitle: 'Twoja prywatność ma znaczenie.',
     privacyBody:
-      'Ta strona nie korzysta z analityki ani reklamowych plików cookie. Po wysłaniu formularza Twoje imię, email i opis projektu są przetwarzane i przechowywane za pośrednictwem Netlify Forms, abyśmy mogli odpowiedzieć na zapytanie. Nie podawaj informacji wrażliwych. W sprawie dostępu do danych lub ich usunięcia napisz na ultimuprizenti@gmail.com. Email, WhatsApp i Instagram przetwarzają dane zgodnie ze swoimi zasadami. Dostawca hostingu może przetwarzać techniczne logi dostępu.',
+      'Ta strona nie korzysta z analityki ani reklamowych plików cookie. Po wysłaniu formularza Twoje imię, email i opis projektu są przetwarzane i przechowywane, abyśmy mogli odpowiedzieć na zapytanie. Nie podawaj informacji wrażliwych. W sprawie dostępu do danych lub ich usunięcia napisz na ultimuprizenti@gmail.com. Email, WhatsApp i Instagram przetwarzają dane zgodnie ze swoimi zasadami. Dostawca hostingu może przetwarzać techniczne logi dostępu.',
     rights: 'Wszelkie prawa do fotografii i filmów zastrzeżone.',
     notFound: 'Tego kadru brakuje.',
     notFoundText: 'Nie znaleziono szukanej strony.',

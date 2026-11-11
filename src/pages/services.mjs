@@ -48,7 +48,7 @@ export function servicesPage(language, t) {
                             .join('')}
                         </ul>
                         ${button(
-                          t.contact,
+                          t.packageCta,
                           pageUrl(language, 'contact') +
                             '?package=' +
                             encodeURIComponent(title[language] + ' — ' + item.name[language]),
@@ -75,6 +75,10 @@ export function servicesPage(language, t) {
           )
           .join('\n')}
       </div>
+    </section>
+    <section class="section wrap prose" aria-labelledby="pricing-note">
+      <h2 id="pricing-note">${t.pricingNoteTitle}</h2>
+      <p>${t.pricingNote}</p>
     </section>
     ${contactInvitation(language, t)}
   `;

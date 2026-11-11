@@ -6,7 +6,7 @@ export const site = {
   whatsapp: '48729339554',
   instagram: 'https://www.instagram.com/ultimuprizenti/',
   facebook: '',
-  // A Netlify fornece URL automaticamente; SITE_URL permite usar um domínio próprio.
+  // O alojamento fornece URL automaticamente; SITE_URL permite usar um domínio próprio.
   origin: (process.env.SITE_URL || process.env.URL || '').replace(/\/$/, ''),
   logo: '/assets/brand/logo-original.png',
   location: 'Warsaw',

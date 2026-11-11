@@ -1,18 +1,26 @@
 # Ultimu Prizenti Studios
 
-A multilingual photography and filmmaking website developed for my own company,
+A multilingual photography and filmmaking website I developed for my own company,
 **Ultimu Prizenti Studios**, based in Warsaw and available for projects worldwide.
 
 This project brings together my creative work and my interest in information
 technology: brand identity, visual direction, photography, filmmaking and a complete
-web experience. The design direction and original photographic and audiovisual
-portfolio are my own work. I am sharing the project to demonstrate my technical
+web experience. I created the brand identity, website design and original photographic and audiovisual
+portfolio, and developed this project for my business. I am sharing the project to demonstrate my technical
 skills, product decisions and ability to take a real business requirement through
 to a working website.
 
 > More Than Visuals. Memories That Live On.
 >
 > A Little Phototherapy for the Soul.
+
+## Website preview
+
+[Visit the website](https://ultimuprizenti.netlify.app/en/)
+
+![Homepage — Ultimu Prizenti Studios](docs/screenshots/homepage.png)
+
+![Photography and film packages](docs/screenshots/packages.png)
 
 ## What the project demonstrates
 
@@ -21,9 +29,9 @@ to a working website.
 - English, Polish and Portuguese pages with language-aware navigation.
 - Responsive CSS, accessible forms, keyboard-operated galleries and reduced-motion support.
 - Responsive WebP photographs and on-demand video playback with original aspect ratios.
-- Netlify Forms integration for enquiries and privately reviewed client testimonials.
+- Contact-form integration for enquiries and privately reviewed client testimonials.
 - Automated checks for generated pages, assets, translations, links and form submissions.
-- A reproducible build, GitHub Actions validation and Git-based Netlify deployment.
+- A reproducible build, GitHub Actions validation and Git-based deployment.
 
 ## Run locally
 
@@ -66,34 +74,24 @@ src/pages/      Page templates
 public/assets/  Styles, browser JavaScript, logos and web-ready media
 scripts/        Static build and local HTTP server
 tests/          Automated verification using node:test
-docs/           Publishing instructions and project explanation
+docs/screenshots/ Website previews for this README
 dist/           Generated output (not tracked)
 ```
 
-Start with [the project guide](docs/PROJECT.md) to follow how data becomes HTML.
 Code comments explain important decisions in Portuguese.
 
-## Deployment
+## Build and deployment
 
-Import this repository into **Netlify Free**. `netlify.toml` sets:
+The production build writes the complete website to `dist/`. The hosting
+configuration is versioned with the source. Set `SITE_URL` to use a custom domain.
+The form handler must be enabled on the hosting platform; local previews do not
+send messages. Client reviews are moderated before publication.
 
-- Build command: `npm run build`
-- Publish directory: `dist`
-- Node.js: `24`
+## Author
 
-No API key is embedded in the frontend. Netlify supplies the public URL during the
-build; optionally set `SITE_URL` for a custom domain. Enable Forms detection and
-configure email notifications for both `contact` and `testimonials`, then redeploy.
-Read [the publishing guide](docs/PUBLICAR.md) for the complete sequence.
-
-Localhost does not submit forms. Live submission and notification delivery must be
-verified on the deployed site. Reviews are never automatically published: approved
-content is added manually and deployed again. There is no CMS or private client
-photo-delivery system in this release.
-
-The free hosting plan has usage limits. Video traffic can consume the allowance;
-a custom domain is optional and paid separately. No paid services are required by
-the code, and no automatic payment flow is implemented.
+Created and developed by **Samuel Texas** for **Ultimu Prizenti Studios**.
+Website design, brand direction, photography and filmmaking form part of my
+professional portfolio, alongside the implementation presented in this repository.
 
 ## Ownership
 
