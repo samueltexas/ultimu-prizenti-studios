@@ -2,6 +2,8 @@
 // Os slogans em inglês fazem parte da identidade aprovada da marca.
 export const translations = {
   en: {
+    victoriaMichal: 'Victória & Michał',
+    weddingFilms: 'Wedding Films',
     packageCta: 'Let’s Create Together',
     pricingNoteTitle: 'Pricing information',
     pricingNote:
@@ -166,6 +168,8 @@ export const translations = {
     returnHome: 'Return home',
   },
   pt: {
+    victoriaMichal: 'Victória & Michał',
+    weddingFilms: 'Filmes de Casamento',
     packageCta: 'Vamos Criar Juntos',
     pricingNoteTitle: 'Informação sobre os preços',
     pricingNote:
@@ -327,6 +331,8 @@ export const translations = {
     returnHome: 'Voltar ao início',
   },
   pl: {
+    victoriaMichal: 'Victória & Michał',
+    weddingFilms: 'Filmy Ślubne',
     packageCta: 'Stwórzmy Coś Razem',
     pricingNoteTitle: 'Informacje o cenach',
     pricingNote:

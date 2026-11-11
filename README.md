@@ -56,9 +56,9 @@ npm test      # Test an existing build.
 
 ## Features and content
 
-The build produces **66 language-specific pages**, plus the language entry point and
-404 page. The portfolio includes 53 photographs in three responsive sizes, seven
-films, four photo collections, dedicated events and music-video pages, 14 service
+The build produces **72 language-specific pages**, plus the language entry point and
+404 page. The portfolio includes 53 photographs in three responsive sizes, eight
+films, four photo collections, dedicated wedding, events and music-video pages, 14 service
 packages, the studio story, drone services, contact and testimonials pages.
 
 The web-ready media is included, so a clone builds without missing videos. The

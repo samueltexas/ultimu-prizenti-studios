@@ -18,8 +18,8 @@ async function walk(directory) {
 }
 const htmlFiles = (await walk(output)).filter((path) => path.endsWith('.html'));
 
-test('As 66 páginas e as duas entradas auxiliares existem', () => {
-  assert.equal(htmlFiles.length, 68);
+test('As 72 páginas e as duas entradas auxiliares existem', () => {
+  assert.equal(htmlFiles.length, 74);
 });
 
 test('Todas as ligações internas, imagens, vídeos e variantes responsivas existem', async () => {

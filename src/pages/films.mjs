@@ -41,7 +41,7 @@ export function filmsPage(language, t) {
   return /* HTML */ `${pageHeading(t.eyebrow, t.films, t.filmsIntro)}
     <section class="wrap film-list">
       ${films
-        .filter((film) => ['showreels', 'weddings'].includes(film.category))
+        .filter((film) => film.category === 'showreels')
         .map((film) => filmCard(language, t, film, base + film.slug + '/'))
         .join('')}
       ${filmCategories

@@ -9,6 +9,15 @@ export const collections = [
 
 export const films = [
   {
+    slug: 'victoria-michal',
+    titleKey: 'victoriaMichal',
+    category: 'weddings',
+    file: 'victoria-michal',
+    poster: 'victoria-michal-poster.jpg',
+    posterWidth: 1920,
+    posterHeight: 1080,
+  },
+  {
     slug: 'studio-showreel',
     titleKey: 'showreel',
     category: 'showreels',
@@ -92,6 +101,7 @@ export const selectedPhotos = [
 
 // As categorias têm páginas próprias e preservam a ordem dos filmes seleccionados.
 export const filmCategories = [
+  { slug: 'weddings', titleKey: 'weddingFilms', featured: 'victoria-michal' },
   { slug: 'events', titleKey: 'eventFilms', featured: 'noc-basenow' },
   { slug: 'music-videos', titleKey: 'musicVideos', featured: 'all-the-love' },
 ];
