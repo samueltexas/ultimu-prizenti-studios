@@ -14,6 +14,8 @@ export const films = [
     category: 'showreels',
     file: 'site-preview',
     poster: 'site-preview-poster.jpg',
+    posterWidth: 1920,
+    posterHeight: 1080,
   },
   {
     slug: 'wedding-film',
@@ -21,6 +23,8 @@ export const films = [
     category: 'weddings',
     file: 'wedding-film',
     poster: 'wedding-film-poster.jpg',
+    posterWidth: 1920,
+    posterHeight: 1080,
   },
   {
     slug: 'noc-basenow',
@@ -28,6 +32,8 @@ export const films = [
     category: 'events',
     file: 'noc-basenow',
     poster: 'noc-basenow-poster.jpg',
+    posterWidth: 1920,
+    posterHeight: 1080,
   },
   {
     slug: 'noc-basenow-24-maja',
@@ -35,6 +41,8 @@ export const films = [
     category: 'events',
     file: 'noc-basenow-24-maja',
     poster: 'noc-basenow-24-maja-poster.jpg',
+    posterWidth: 1920,
+    posterHeight: 1080,
   },
   {
     slug: 'sylwester',
@@ -42,6 +50,8 @@ export const films = [
     category: 'events',
     file: 'sylwester',
     poster: 'sylwester-poster.jpg',
+    posterWidth: 607,
+    posterHeight: 1080,
   },
   {
     slug: 'all-the-love',
@@ -49,6 +59,8 @@ export const films = [
     category: 'music-videos',
     file: 'all-the-love',
     poster: 'all-the-love-poster.jpg',
+    posterWidth: 1920,
+    posterHeight: 1080,
   },
   {
     slug: 'film-02',
@@ -56,6 +68,8 @@ export const films = [
     category: 'events',
     file: 'film-02',
     poster: 'film-02-poster.jpg',
+    posterWidth: 607,
+    posterHeight: 1080,
   },
 ];
 

@@ -34,7 +34,7 @@ export const translations = {
       testimonials: 'What Our Clients Say',
       drone: 'Drone',
       home: 'Home',
-      portfolio: 'Work',
+      portfolio: 'Portfolio',
       films: 'Films',
       services: 'Packages',
       about: 'About',

@@ -10,8 +10,8 @@ function filmCard(language, t, film, href, label) {
         <img
           src="/assets/videos/${film.poster}"
           alt="${escapeHtml(t[film.titleKey])}"
-          width="1920"
-          height="1080"
+          width="${film.posterWidth}"
+          height="${film.posterHeight}"
           loading="lazy"
         /><span class="play-symbol" aria-hidden="true">▷</span>
       </div>

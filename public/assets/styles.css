@@ -469,7 +469,7 @@ small {
 }
 .film-cover {
   position: relative;
-  background: #1b1c1c;
+  background: #000;
 }
 .film-cover video {
   width: 100%;
@@ -779,10 +779,10 @@ textarea {
   margin-bottom: 30px;
 }
 
+/* A altura acompanha o fotograma: evita faixas criadas pela caixa da capa. */
 .film-cover img {
   width: 100%;
-  aspect-ratio: 16/9;
-  object-fit: contain;
+  height: auto;
 }
 
 .testimonial {
