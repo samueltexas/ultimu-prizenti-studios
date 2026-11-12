@@ -7,7 +7,7 @@ export function contactPage(language, t) {
     <section class="wrap contact-grid">
       <aside class="contact-details">
         <p class="eyebrow">${t.location}</p>
-        <h2>${t.create}</h2>
+        <h2>${t.contactCreateTitle}</h2>
         <p>${t.based}</p>
         ${site.email
           ? /* HTML */ `<a href="mailto:${escapeHtml(site.email)}">${escapeHtml(site.email)} ↗</a>`
