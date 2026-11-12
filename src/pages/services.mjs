@@ -25,6 +25,10 @@ export function servicesPage(language, t) {
         )
         .join('\n')}
     </section>
+    <section class="section wrap prose" aria-labelledby="pricing-note">
+      <h2 id="pricing-note">${t.pricingNoteTitle}</h2>
+      <p>${t.pricingNote}</p>
+    </section>
     <section class="section wrap pricing-section">
       <p class="eyebrow">${t.pricing}</p>
       ${Object.entries(packageGroups)
@@ -75,10 +79,6 @@ export function servicesPage(language, t) {
           )
           .join('\n')}
       </div>
-    </section>
-    <section class="section wrap prose" aria-labelledby="pricing-note">
-      <h2 id="pricing-note">${t.pricingNoteTitle}</h2>
-      <p>${t.pricingNote}</p>
     </section>
     ${contactInvitation(language, t)}
   `;

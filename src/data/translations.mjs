@@ -120,7 +120,7 @@ export const translations = {
       'Ultimu Prizenti Studios is a photography and film studio based in Warsaw, available for projects worldwide.',
     aboutBody:
       'Our work brings people, places and stories into focus. From a quiet portrait to a moving image, the intention is the same: to create something worth returning to.',
-    aboutLink: 'Meet our work',
+    aboutLink: 'Explore our portfolio',
     contactTitle: 'Every story starts with a conversation.',
     contactIntro:
       'Tell us what you have in mind, where it will happen and when. Let’s find the right approach for your project.',
@@ -287,7 +287,7 @@ export const translations = {
       'A Ultimu Prizenti Studios é um estúdio de fotografia e cinema sediado em Varsóvia, disponível para projectos em todo o mundo.',
     aboutBody:
       'O nosso trabalho dá atenção às pessoas, aos lugares e às suas histórias. De um retrato tranquilo a uma imagem em movimento, a intenção é a mesma: criar algo a que vale a pena regressar.',
-    aboutLink: 'Conhecer o nosso trabalho',
+    aboutLink: 'Conheça o nosso portefólio',
     contactTitle: 'Toda a história começa com uma conversa.',
     contactIntro:
       'Conta-nos o que tens em mente, onde vai acontecer e quando. Vamos encontrar a melhor abordagem para o teu projecto.',
@@ -449,7 +449,7 @@ export const translations = {
       'Ultimu Prizenti Studios to studio fotografii i filmu z siedzibą w Warszawie, realizujące projekty na całym świecie.',
     aboutBody:
       'Nasza praca skupia się na ludziach, miejscach i ich historiach. Od spokojnego portretu po ruchomy obraz — cel pozostaje ten sam: tworzyć coś, do czego warto wracać.',
-    aboutLink: 'Poznaj nasze prace',
+    aboutLink: 'Poznaj nasze portfolio',
     contactTitle: 'Każda historia zaczyna się od rozmowy.',
     contactIntro:
       'Opowiedz nam o swoim pomyśle, miejscu i terminie. Znajdźmy najlepsze podejście do Twojego projektu.',
