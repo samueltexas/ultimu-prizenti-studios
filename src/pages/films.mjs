@@ -26,6 +26,8 @@ function filmCard(language, t, film, href, label) {
 function player(t, film) {
   return /* HTML */ `<video
     controls
+    width="${film.posterWidth}"
+    height="${film.posterHeight}"
     playsinline
     preload="none"
     poster="/assets/videos/${film.poster}"
